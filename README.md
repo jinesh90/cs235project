@@ -46,7 +46,8 @@ upon set up params, run main.py for training model, once model successfully trai
    to BERT input layer.
 
 6. </h4>evaluation</h4> 
-   this folder has  model evaluation file. after training model, It will generate confusion matrix and get test data accuracy.Note here, this is after training step,means you need a trained model for evalaution on test data.
+
+this folder has  model evaluation file. after training model, It will generate confusion matrix and get test data accuracy.Note here, this is after training step,means you need a trained model for evalaution on test data.
 
 7. <h4>model</h4>
    various model architectures abstract class, like simple model, model with dropout layer or model with two deep neural layers etc.
