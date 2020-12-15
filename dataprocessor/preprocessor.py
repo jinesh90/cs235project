@@ -75,23 +75,3 @@ class GetLoader:
 #
 # tl = GetLoader(df, tokenizer)
 # train_loader = tl.get()
-#
-#
-# data = next(iter(train_loader))
-
-
-
-
-
-
-"""
-
-def create_data_loader(df, tokenizer, max_len, batch_size):
-  ds = AmazonDataSet(
-  reviews=df.content.to_numpy(),
-  targets=df.sentiment.to_numpy(),
-  tokenizer=tokenizer,
-  max_len=max_len
-  )
-  return DataLoader(ds, batch_size=batch_size,num_workers=4)
-"""
